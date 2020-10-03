@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_chat/helper/style.dart';
 
 Widget appBarMain(BuildContext context){
   return AppBar(
@@ -15,24 +16,24 @@ InputDecoration textFieldInputDecoration(String hintText){
       color: Colors.white54,
     ),
     focusedBorder: UnderlineInputBorder(
-      borderSide: BorderSide(color: Colors.white),
+      borderSide: BorderSide(color: white),
     ),
     enabledBorder: UnderlineInputBorder(
-      borderSide: BorderSide(color: Colors.white),
+      borderSide: BorderSide(color: white),
     ),
   );
 }
 
 TextStyle simpleTextStyle(){
   return TextStyle(
-    color: Colors.white,
+    color: white,
     fontSize: 16,
   );
 }
 
 TextStyle mediumTextStyle(){
   return TextStyle(
-  color: Colors.white,
-  fontSize: 17,
+    color: white,
+    fontSize: 17,
   );
 }
